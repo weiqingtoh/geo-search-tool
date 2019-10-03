@@ -60,7 +60,8 @@ var CAR_REGEX = /\d{4} (?:dodge|chevy|ford|toyota|bmw|mercedes|honda|chrysler|po
 /** Initialize portions of page on page load and create object with all News channels in it
  */
 $(document).ready(function() {
-  hideSearchFilters();
+  // hideSearchFilters();
+  showSearchFilters();
   resetResultsSection();
   displayCustomRangeSection();
 
